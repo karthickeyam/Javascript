@@ -1,0 +1,18 @@
+<html>
+<head>
+
+<title>Javascript project</title>
+<script>
+
+var bgcolor=new Array("#029FD4","#D43702","#1EFF00","#EAEAFF","#FFEA00","#AB5252","#FFFFFF","#DE28D8");
+document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.lenght)];
+function changeColor() {
+document.body.style.background = bgcolor[Math.floor(Math.random()*bgcolor.length)];
+}
+</script>
+</head>
+<body>
+<button class="var" onclick="changeColor()"> click me</button>
+</body>
+
+</html>
